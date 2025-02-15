@@ -23,8 +23,8 @@ on:
   # 4. schedule
   # Use cron syntax to trigger the workflow on a scheduled basis.
   # In this example, the workflow will run every day at midnight UTC.
-  schedule:
-    - cron: '0 0 * * *'
+  #schedule:
+  #  - cron: '0 0 * * *'
 
   # 5. release
   # Trigger the workflow when a release is published.
